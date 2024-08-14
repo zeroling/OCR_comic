@@ -24,7 +24,6 @@ def translate(text_list, target_language, ID, Key):
         'translate': ApiInfo('POST', '/', query, {}, {})
     }
     service = Service(service_info, api_info)
-    # print(text_list)
     body = {
         'TargetLanguage': target_language,
         'TextList': text_list,
