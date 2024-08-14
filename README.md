@@ -5,3 +5,7 @@
 ### 把所有待翻译图片放入一个文件夹下,然后指定另一个输出文件夹即可使用,注意路径不能有中文,cv2读取时不支持
 
 ### 价格问题:字节翻译API为每月200w字,就当免费用! OCR的价格,字节为免费5000张,之后0.015元每张,百度OCR通用文字识别（高精度含位置版）为0.038元每张(送500张每月),通用文字识别（标准含位置版）(不好用,不建议用)为0.01元每次(送1000张每月)
+
+#### 购买地址 字节翻译服务:https://www.volcengine.com/product/machine-translation
+#### 购买地址 字节ocr服务:https://www.volcengine.com/product/OCR
+#### 购买地址 百度ocr服务:https://cloud.baidu.com/doc/OCR/s/9k3h7xuv6(别买错了,买高精度带位置版的,好用)
