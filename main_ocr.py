@@ -9,16 +9,11 @@ from Tools_pic.ocr_dy_v1 import ocr_dy_v1
 from Tools_pic.Translate_pic import translate
 
 
-ID_dy = ''
-KeyID_dy = ''
+ID_dy = '留空,填自己买的'
+KeyID_dy = '留空,填自己买的'
 
-ID_bd = ""
-KeyID_bd = ""
-
-image_path = "3f3f726729cc298bfe5fc238af6ea02.png"  # 图像文件路径
-output_path = "output_with_boxes.png"  # 输出文件路径
-
-
+ID_bd = "留空,填自己买的"
+KeyID_bd = "留空,填自己买的"
 
 
 def ocr(input_folder, output_folder, Flag):
@@ -56,5 +51,5 @@ def ocr(input_folder, output_folder, Flag):
 
 
 if __name__ == '__main__':
-    '''推荐字节API或者百度的V2版本,即OCR高精度带坐标版,三个版本,dy,bd_v1,bd_v2,这里推荐bd_v1,翻译使用的是字节的api,每月200w字免费额度'''
+    '''推荐字节API或者百度的V2版本,即OCR高精度带坐标版,三个版本,dy,bd_v1,bd_v2,这里推荐bd_v2,翻译使用的是字节的api,每月200w字免费额度'''
     ocr(r"C:\Users\16406\Desktop\new", "Test_dy_v1", "dy")
