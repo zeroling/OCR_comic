@@ -34,7 +34,7 @@ def are_centers_close(rect1, rect2):
     w1, h1 = rect1[2] - rect1[0], rect1[3] - rect1[1]
     w2, h2 = rect2[2] - rect2[0], rect2[3] - rect2[1]
 
-    max_dx = (w1 + w2) * 1.5 / 2
+    max_dx = (w1 + w2) * 1.35 / 2
     max_dy = (h1 + h2) / 4
 
     return dx <= max_dx and dy <= max_dy
